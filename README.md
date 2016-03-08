@@ -20,6 +20,8 @@ Open up [localhost:6443](https://localhost:6443/) and login using `cn=admin,dc=e
 
 # Sample Python
 
+Change the host in the script below and run it in Python when you've `pip install ldap3`.
+
     import ldap3
     import ssl
     
