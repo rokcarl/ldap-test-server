@@ -1,0 +1,7 @@
+version: 1
+
+# Entry 1: ou=users,dc=example,dc=org
+dn: ou=users,dc=example,dc=org
+objectclass: organizationalUnit
+objectclass: top
+ou: users
