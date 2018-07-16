@@ -1,4 +1,4 @@
-FROM osixia/openldap:1.1.1
+FROM osixia/openldap:1.1.11
 MAINTAINER rok@reciprocitylabs.com
 RUN apt-get update && apt-get install -y --force-yes ldapscripts vim
 
